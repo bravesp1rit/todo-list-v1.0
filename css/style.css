@@ -1,0 +1,45 @@
+body{
+    background-color: #cfcfcf;
+}
+.taskWrapper {
+    background-color: #eeeee4;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.taskHeading {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+.form-control:focus{
+    background-color: #eeeee4;
+    border: 1px solid #9b9ba8;
+    box-shadow: none;
+}
+
+.taskDescription {
+    font-size: 16px;
+
+}
+.taskDelete {
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin: -10px -8px 0 0;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskDelete:hover{
+    background-color: #cc6060;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+.form-control{
+    background-color: #eeeee4;
+}
